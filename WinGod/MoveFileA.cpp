@@ -8,6 +8,7 @@ int main(int argc, char** argv){
   MessageBoxW(NULL, L"Windows Process Trick", L"ReName", MB_ICONEXCLAMATION | MB_OK);
   MessageBoxA(NULL, "Windows Process Trick", "ReName", MB_ICONEXCLAMATION | MB_OK);
   MessageBox(0,"Content", "Title", MB_OK);
+  FatalAppExitA(0, "Crashed!");
   // Do u want to do bad thing?
   // I don't think so.
 }
